@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Patrick+Hand|Permanent+Marker&display=swap');
+
+body {
+  background: #efeded;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Permanent Marker', cursive;
+}
+
+h2 {
+  font-family: 'Patrick Hand', cursive;
+}
+
+.h2-smaller {
+  font-weight: lighter;
+}
+
+p {
+  font-family: 'Patrick Hand', cursive;
+}
+
+a {
+  color: white;
+  font-size: 20px;
+  font-family: 'Permanent Marker', cursive;
+  text-decoration: none;
+}
+
+.container {
+  width: 700px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.card {
+  background: white;
+  padding: 30px;
+  margin: 20px;
+  display: block;
+  border-radius: 10px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+}
+
+.btn {
+  padding: 10px 15px;
+  background-color: #5A141D;
+  border-radius: 10px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+}
+
+.btn:hover {
+  background-color: rgba(90, 20, 29, 0.9);
+}
+
+ul {
+  padding: 10px;
+}
+
+p {
+  padding: 20px;
+  letter-spacing: 0.5px;
+}
+
+.fab {
+  color: #5A141D;
+  font-size: 40px;
+}
+
+.img-circle {
+  border-radius: 50%;
+  border: 1px solid lightgrey;
+}
+
+.list-inline li{
+  color: #5A141D;
+  list-style: none;
+  display: inline;
+  text-align: center;
+  padding: 10px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
